@@ -62,7 +62,6 @@ If you didn't select the option to add LLVM to PATH during installation, you'll 
 <div align="center">
   
 ### 🖼️ **Image Reference: Environment Variables Setup**
-*(Image showing environment variables dialog with bin folder path added)*
 
 </div>
 
@@ -78,7 +77,6 @@ If you didn't select the option to add LLVM to PATH during installation, you'll 
 <div align="center">
 
 ### 🖼️ **Image Reference: Code Runner Extension**
-*(Image showing Code Runner extension in VSCode marketplace)*
 
 </div>
 
@@ -94,7 +92,6 @@ If you didn't select the option to add LLVM to PATH during installation, you'll 
 <div align="center">
 
 ### 🖼️ **Image Reference: Code Runner Configuration**
-*(Image showing Code Runner executor map settings)*
 
 </div>
 
@@ -110,12 +107,16 @@ In your VSCode `settings.json`, find the `"code-runner.executorMap"` section and
 }
 ```
 
+### 🖼️ **Image Reference: Code Runner Configuration**
+
 This configuration will:
 - Change to the current directory (`cd $dir`)
 - Compile your C++ file with Clang++ (`clang++ $fileName -o $fileNameWithoutExt.exe`)
 - Use C++23 standard (`-std=c++23`)
 - Optimize with O3 level (`-O3`)
 - Execute the compiled program (`.\$fileNameWithoutExt.exe`)
+
+
 
 ---
 
