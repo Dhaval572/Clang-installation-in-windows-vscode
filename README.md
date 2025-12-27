@@ -61,7 +61,8 @@ If you didn't select the option to add LLVM to PATH during installation, you'll 
 
 <div align="center">
   
-### 🖼️ **Environment Variables Setup**
+![Environment Variables Setup](Screenshots/image_2.png)
+
 </div>
 
 ---
@@ -75,7 +76,9 @@ If you didn't select the option to add LLVM to PATH during installation, you'll 
 
 <div align="center">
 
-### 🖼️ **Code Runner Extension**
+### 🖼️ **Image Reference: Code Runner Extension**
+
+![Code Runner Extension](Screenshots/image_1.png)
 
 </div>
 
@@ -89,6 +92,9 @@ If you didn't select the option to add LLVM to PATH during installation, you'll 
 4. Click on "Edit in settings.json"
 
 <div align="center">
+
+
+![Code Runner Configuration](Screenshots/image_3.png)
 
 </div>
 
@@ -104,7 +110,7 @@ In your VSCode `settings.json`, find the `"code-runner.executorMap"` section and
 }
 ```
 
-### 🖼️**Code Runner Configuration**
+![Code Runner Configuration](Screenshots/image_4.png)
 
 This configuration will:
 - Change to the current directory (`cd $dir`)
@@ -112,6 +118,8 @@ This configuration will:
 - Use C++23 standard (`-std=c++23`)
 - Optimize with O3 level (`-O3`)
 - Execute the compiled program (`.\$fileNameWithoutExt.exe`)
+
+
 
 ---
 
@@ -121,6 +129,7 @@ Create a new file called `test.cpp` and paste this test code:
 
 ```cpp
 #include <iostream>
+
 using namespace std;
 
 int main()
@@ -147,8 +156,6 @@ int main()
 <div align="center">
 
 ### 🎉 **BOOM! 💥💥 Setup is Complete!**
-
-**Now you can run C++ code directly from VSCode with C++23 support!**
 
 </div>
 
