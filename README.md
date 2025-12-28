@@ -10,19 +10,6 @@
 
 </div>
 
----
-
-## 📋 Table of Contents
-- [Download LLVM Compiler](#download-llvm-compiler)
-- [Install LLVM](#install-llvm)
-- [Add to Environment Variables](#add-to-environment-variables)
-- [Install Code Runner Extension](#install-code-runner-extension)
-- [Configure Code Runner](#configure-code-runner)
-- [Test Your Setup](#test-your-setup)
-- [Troubleshooting](#troubleshooting)
-
----
-
 ## 📦 Download LLVM Compiler
 
 First, download the latest LLVM compiler with Clang++:
